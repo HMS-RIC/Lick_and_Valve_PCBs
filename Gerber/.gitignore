@@ -1,0 +1,11 @@
+# ignore all Gerber files
+# (We will just keep the .zip files in the git repo)
+*.GBL
+*.GBS
+*.GTL
+*.GTO
+*.GTS
+*.TXT
+
+
+
