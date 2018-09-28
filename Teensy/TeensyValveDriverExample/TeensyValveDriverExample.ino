@@ -22,8 +22,8 @@ const uint8_t IO_8 = 19;
 const int NUM_IO_PINS = 8;
 const uint8_t IO_PINS[NUM_IO_PINS] = {IO_1, IO_2, IO_3, IO_4, IO_5, IO_6, IO_7, IO_8};
 
-const uint8_t LICK_1 = 7;
-const uint8_t LICK_2 = 8;
+const uint8_t LICK_1 = 8;
+const uint8_t LICK_2 = 7;
 
 
 void setup() {

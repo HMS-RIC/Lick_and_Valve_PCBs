@@ -5150,7 +5150,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-66.04" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LICK_1" class="0">
+<net name="LICK_2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="7/RX3"/>
 <wire x1="-63.5" y1="71.12" x2="-66.04" y2="71.12" width="0.1524" layer="91"/>
@@ -5162,7 +5162,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-114.3" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LICK_2" class="0">
+<net name="LICK_1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="8/TX3"/>
 <wire x1="-63.5" y1="68.58" x2="-66.04" y2="68.58" width="0.1524" layer="91"/>

@@ -3537,7 +3537,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="29.21" y1="52.07" x2="22.86" y2="45.72" width="0.3048" layer="1"/>
 <wire x1="56.53" y1="52.07" x2="29.21" y2="52.07" width="0.3048" layer="1"/>
 </signal>
-<signal name="LICK_1">
+<signal name="LICK_2">
 <contactref element="U$1" pad="7"/>
 <contactref element="J14" pad="3"/>
 <wire x1="25.4" y1="30.48" x2="29.21" y2="26.67" width="0.3048" layer="1"/>
@@ -3546,7 +3546,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="100.33" y1="34.29" x2="97.79" y2="36.83" width="0.3048" layer="1"/>
 <wire x1="29.21" y1="26.67" x2="95.25" y2="26.67" width="0.3048" layer="1"/>
 </signal>
-<signal name="LICK_2">
+<signal name="LICK_1">
 <contactref element="U$1" pad="8"/>
 <contactref element="J14" pad="2"/>
 <wire x1="27.94" y1="30.48" x2="30.48" y2="27.94" width="0.3048" layer="1"/>
