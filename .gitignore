@@ -1,3 +1,7 @@
+
+# Ignore Excel backup/lock files
+~$*.xlsx
+
 # Ignore list for Eagle, a PCB layout tool
 # (copied from https://github.com/github/gitignore/blob/master/Eagle.gitignore)
 
