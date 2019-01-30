@@ -158,14 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="59.69" x2="0" y2="3.81" width="0" layer="20"/>
+<wire x1="0" y1="62.23" x2="0" y2="3.81" width="0" layer="20"/>
 <wire x1="0" y1="3.81" x2="3.81" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="3.81" y1="0" x2="97.79" y2="0" width="0" layer="20"/>
 <wire x1="97.79" y1="0" x2="101.6" y2="3.81" width="0" layer="20" curve="90"/>
-<wire x1="101.6" y1="3.81" x2="101.6" y2="59.69" width="0" layer="20"/>
-<wire x1="101.6" y1="59.69" x2="97.79" y2="63.5" width="0" layer="20" curve="90"/>
-<wire x1="97.79" y1="63.5" x2="3.81" y2="63.5" width="0" layer="20"/>
-<wire x1="3.81" y1="63.5" x2="0" y2="59.69" width="0" layer="20" curve="90"/>
+<wire x1="101.6" y1="3.81" x2="101.6" y2="62.23" width="0" layer="20"/>
+<wire x1="101.6" y1="62.23" x2="97.79" y2="66.04" width="0" layer="20" curve="90"/>
+<wire x1="97.79" y1="66.04" x2="3.81" y2="66.04" width="0" layer="20"/>
+<wire x1="3.81" y1="66.04" x2="0" y2="62.23" width="0" layer="20" curve="90"/>
 <text x="35.56" y="20.32" size="1.778" layer="21" ratio="15">8 Channel Valve Driver</text>
 <text x="35.56" y="17.78" size="1.27" layer="21" ratio="15">with optional Teensy control</text>
 <text x="35.56" y="12.7" size="1.27" layer="21" ratio="10">v1.1  •  January 2019  •  OM</text>
@@ -224,25 +224,25 @@ to Lick
 Sensor Brd.</text>
 <text x="62.23" y="41.275" size="1.016" layer="21">Digital input to valve drivers</text>
 <text x="62.23" y="39.37" size="0.8382" layer="21" ratio="10">(External inputs or from Teensy)</text>
-<text x="42.545" y="59.69" size="1.016" layer="21" ratio="15" distance="240" rot="R90">Gnd
+<text x="42.545" y="60.96" size="1.016" layer="21" ratio="15" distance="240" rot="R90">Gnd
 Gnd
 IO_4
 IO_3
 IO_2
 IO_1
 3.3V
-  5V</text>
-<text x="78.105" y="59.69" size="1.016" layer="21" ratio="15" distance="240" rot="R90">Gnd
+Vin/5V</text>
+<text x="78.105" y="60.96" size="1.016" layer="21" ratio="15" distance="240" rot="R90">Gnd
 Gnd
 IO_8
 IO_7
 IO_6
 IO_5
 3.3V
-  5V</text>
+Vin/5V</text>
 <text x="31.75" y="50.8" size="1.016" layer="21">General purpose input/output lines for Teensy</text>
-<wire x1="13.97" y1="50.165" x2="13.97" y2="63.5" width="0.0762" layer="21" style="shortdash"/>
-<wire x1="82.55" y1="63.5" x2="82.55" y2="50.165" width="0.0762" layer="21" style="shortdash"/>
+<wire x1="13.97" y1="50.165" x2="13.97" y2="66.04" width="0.0762" layer="21" style="shortdash"/>
+<wire x1="82.55" y1="66.04" x2="82.55" y2="50.165" width="0.0762" layer="21" style="shortdash"/>
 <wire x1="82.55" y1="50.165" x2="13.97" y2="50.165" width="0.0762" layer="21" style="shortdash"/>
 <text x="5.08" y="22.86" size="1.27" layer="21" ratio="10">V_valve</text>
 </plain>
@@ -3255,8 +3255,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J4" pad="GND"/>
 <contactref element="J4" pad="GNDBREAK"/>
 <polygon width="0.1524" layer="16">
-<vertex x="0" y="63.5"/>
-<vertex x="101.6" y="63.5"/>
+<vertex x="0" y="66.04"/>
+<vertex x="101.6" y="66.04"/>
 <vertex x="101.6" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
@@ -3266,8 +3266,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="J14" pad="1"/>
 <contactref element="J13" pad="2"/>
 <polygon width="0.1524" layer="1">
-<vertex x="0" y="63.5"/>
-<vertex x="101.6" y="63.5"/>
+<vertex x="0" y="66.04"/>
+<vertex x="101.6" y="66.04"/>
 <vertex x="101.6" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
