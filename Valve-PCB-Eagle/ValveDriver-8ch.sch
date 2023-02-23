@@ -5152,6 +5152,43 @@ Holes are offset 0.005" from center, to hold pins in place while soldering.
 <text x="-27.94" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-27.94" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="BNC" urn="urn:adsk.eagle:footprint:37624/1" library_version="1">
+<description>&lt;h3&gt;BNC Jack - Mouser Part#5227161 &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://www.mouser.com/ds/2/418/NG_CS_1307191_BNC_Connectors_0307-561881.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BNC&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-7.493" y1="-2.9718" x2="7.493" y2="-2.9718" width="0.127" layer="21"/>
+<wire x1="7.493" y1="-2.9718" x2="7.493" y2="10.8712" width="0.127" layer="21"/>
+<wire x1="7.493" y1="10.8712" x2="-7.493" y2="10.8712" width="0.127" layer="21"/>
+<wire x1="-7.493" y1="10.8712" x2="-7.493" y2="-2.9718" width="0.127" layer="21"/>
+<wire x1="-7.112" y1="10.8712" x2="-7.112" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="-7.112" y1="19.8882" x2="-6.604" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="19.8882" x2="6.604" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="6.604" y1="19.8882" x2="7.0866" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="7.0866" y1="19.8882" x2="7.112" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="7.112" y1="19.8882" x2="7.112" y2="10.8712" width="0.127" layer="51"/>
+<wire x1="6.604" y1="19.8882" x2="6.604" y2="33.7312" width="0.127" layer="51"/>
+<wire x1="6.604" y1="33.7312" x2="-6.604" y2="33.7312" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="33.7312" x2="-6.604" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="17.7546" x2="7.0866" y2="18.6182" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="16.4846" x2="7.0866" y2="17.3482" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="15.2146" x2="7.0866" y2="16.0782" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="13.9446" x2="7.0866" y2="14.8082" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="12.6746" x2="7.0866" y2="13.5382" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="11.4046" x2="7.0866" y2="12.2682" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="19.0246" x2="7.0866" y2="19.8882" width="0.127" layer="51"/>
+<circle x="0" y="30.48" radius="0.8179" width="0.127" layer="51"/>
+<pad name="GND" x="-2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="S" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-5.08" y="5.08" drill="2.2"/>
+<pad name="4" x="5.08" y="5.08" drill="2.2"/>
+<text x="-1.27" y="7.747" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="4.318" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X24" urn="urn:adsk.eagle:package:38202/1" type="box" library_version="1">
@@ -5192,6 +5229,19 @@ CONN_24
 </description>
 <packageinstances>
 <packageinstance name="1X24_LOCK"/>
+</packageinstances>
+</package3d>
+<package3d name="BNC" urn="urn:adsk.eagle:package:38019/1" type="box" library_version="1">
+<description>BNC Jack - Mouser Part#5227161 
+Specifications:
+Pin count: 4
+
+Datasheet referenced for footprint
+Example device(s):
+BNC
+</description>
+<packageinstances>
+<packageinstance name="BNC"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5252,6 +5302,18 @@ CONN_24
 <pin name="23" x="7.62" y="25.4" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="24" x="7.62" y="27.94" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="25" x="7.62" y="30.48" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="BNC" urn="urn:adsk.eagle:symbol:37623/1" library_version="1">
+<description>&lt;h3&gt;BNC Connector&lt;/h3&gt;
+2 pin connection</description>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.5679" width="0.254" layer="94"/>
+<text x="-2.54" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1.778" layer="94" rot="MR180">GND</text>
+<text x="2.54" y="0" size="1.778" layer="94">OUT</text>
+<pin name="OUT" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5393,6 +5455,33 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BNC" urn="urn:adsk.eagle:component:38312/1" prefix="J" library_version="1">
+<description>&lt;h3&gt;BNC Right Angle Connector&lt;/h3&gt;
+&lt;p&gt;Mouser Part# 5227161&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/10550”&gt;BNC Connector - Right Angle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BNC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="BNC">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="OUT" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38019/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="LPA-12729" constant="no"/>
+<attribute name="SF_ID" value="PRT-10550" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6183,6 +6272,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="S7" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
 <part name="S8" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BNC" device="PTH" package3d_urn="urn:adsk.eagle:package:38019/1"/>
+<part name="J16" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BNC" device="PTH" package3d_urn="urn:adsk.eagle:package:38019/1"/>
+<part name="J17" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BNC" device="PTH" package3d_urn="urn:adsk.eagle:package:38019/1"/>
+<part name="J18" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BNC" device="PTH" package3d_urn="urn:adsk.eagle:package:38019/1"/>
+<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6379,6 +6476,34 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="GND1" gate="1" x="40.64" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="40.64" y="-63.754" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="J15" gate="G$1" x="-50.8" y="2.54" smashed="yes">
+<attribute name="NAME" x="-53.34" y="7.874" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-53.34" y="5.588" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J16" gate="G$1" x="-50.8" y="-15.24" smashed="yes">
+<attribute name="NAME" x="-53.34" y="-9.906" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-53.34" y="-12.192" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J17" gate="G$1" x="-50.8" y="-30.48" smashed="yes">
+<attribute name="NAME" x="-53.34" y="-25.146" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-53.34" y="-27.432" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J18" gate="G$1" x="-50.8" y="-45.72" smashed="yes">
+<attribute name="NAME" x="-53.34" y="-40.386" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-53.34" y="-42.672" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND5" gate="1" x="-50.8" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="-5.334" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND6" gate="1" x="-50.8" y="-22.86" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="-23.114" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND12" gate="1" x="-50.8" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="-38.354" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND13" gate="1" x="-50.8" y="-53.34" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="-53.594" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6453,6 +6578,22 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-7.62" x2="40.64" y2="0" width="0.1524" layer="91"/>
 <junction x="40.64" y="-7.62"/>
+</segment>
+<segment>
+<pinref part="J15" gate="G$1" pin="GND"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J16" gate="G$1" pin="GND"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="GND"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J18" gate="G$1" pin="GND"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="V_VALVE" class="1">
@@ -6712,6 +6853,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="17.78" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <label x="20.32" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J18" gate="G$1" pin="OUT"/>
+<wire x1="-45.72" y1="-45.72" x2="-38.1" y2="-45.72" width="0.1524" layer="91"/>
+<label x="-38.1" y="-45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="V2" class="0">
 <segment>
@@ -6724,6 +6870,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="IC1" gate="G$1" pin="I7"/>
 <wire x1="17.78" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="20.32" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="OUT"/>
+<wire x1="-45.72" y1="-30.48" x2="-38.1" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-38.1" y="-30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V4" class="0">
@@ -6738,6 +6889,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="17.78" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="20.32" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J15" gate="G$1" pin="OUT"/>
+<wire x1="-45.72" y1="2.54" x2="-38.1" y2="2.54" width="0.1524" layer="91"/>
+<label x="-38.1" y="2.54" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="V3" class="0">
 <segment>
@@ -6750,6 +6906,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="IC1" gate="G$1" pin="I6"/>
 <wire x1="17.78" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="20.32" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J16" gate="G$1" pin="OUT"/>
+<wire x1="-45.72" y1="-15.24" x2="-38.1" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-38.1" y="-15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V5" class="0">
@@ -6924,7 +7085,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="-114.3" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
@@ -6946,7 +7107,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
-<net name="V_IN_TEENSY" class="0">
+<net name="V_IN_TEENSY" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <pinref part="SUPPLY1" gate="G$1" pin="V_USB"/>
