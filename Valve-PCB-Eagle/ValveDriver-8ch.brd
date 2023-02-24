@@ -4247,35 +4247,35 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="J5" library="SparkFun-Connectors" package="1X02" value="Valve 8" x="85.09" y="5.08" smashed="yes">
 <attribute name="NAME" x="83.82" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="82.55" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="82.55" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" package="1X02" value="Valve 7" x="74.93" y="5.08" smashed="yes">
 <attribute name="NAME" x="73.66" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="72.39" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="72.39" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J7" library="SparkFun-Connectors" package="1X02" value="Valve 6" x="64.77" y="5.08" smashed="yes">
 <attribute name="NAME" x="63.5" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="61.595" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="61.595" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J8" library="SparkFun-Connectors" package="1X02" value="Valve 5" x="54.61" y="5.08" smashed="yes">
 <attribute name="NAME" x="53.34" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="52.07" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="52.07" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J9" library="SparkFun-Connectors" package="1X02" value="Valve 4" x="44.45" y="5.08" smashed="yes">
 <attribute name="NAME" x="43.18" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="41.91" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="41.91" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J10" library="SparkFun-Connectors" package="1X02" value="Valve 3" x="34.29" y="5.08" smashed="yes">
 <attribute name="NAME" x="33.02" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="31.75" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="31.75" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J11" library="SparkFun-Connectors" package="1X02" value="Valve 2" x="24.13" y="5.08" smashed="yes">
 <attribute name="NAME" x="22.86" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="21.59" y="1.143" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="21.59" y="1.143" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="J12" library="SparkFun-Connectors" package="1X02" value="Valve 1" x="13.97" y="5.08" smashed="yes">
 <attribute name="NAME" x="12.4968" y="6.477" size="0.6096" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="11.4808" y="0.889" size="1.4224" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="11.4808" y="0.889" size="1.4224" layer="21" font="vector" ratio="15"/>
 </element>
 <element name="U$2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="" x="96.52" y="45.72" smashed="yes">
 <attribute name="VALUE" x="96.52" y="43.688" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
